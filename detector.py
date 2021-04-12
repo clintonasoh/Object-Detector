@@ -4,7 +4,8 @@ import cvlib as cv
 from cvlib.object_detection import draw_bbox
 
 # Read in the image
-img = cv2.imread('fruits.jpeg')
+path = r'fruits.jpeg'
+img = cv2.imread(path, -1)
 
 bbox, label, conf = cv.detect_common_objects(img)
 output_image = draw_bbox(img, bbox, label, conf)
