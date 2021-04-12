@@ -3,11 +3,12 @@ import matplotlib.pyplot as plt
 import cvlib as cv
 from cvlib.object_detection import draw_bbox
 
-im = cv2.imread('apple-256261_640.jpg')
+# Read in the image
+img = cv2.imread('fruits.jpeg')
 
-bbox, label, conf = cv.detect_common_objects(im)
+bbox, label, conf = cv.detect_common_objects(img)
+output_image = draw_bbox(img, bbox, label, conf)
 
-output_image = draw_bbox(im, bbox, label, conf)
-
+# Visualize result with boxed detections.
 plt.imshow(output_image)
 plt.show()

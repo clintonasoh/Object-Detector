@@ -8,4 +8,9 @@ This simple application detects the different objects in any image.
 - cvlib: `pip install cvlib`
 - matplotlib: `pip install matplotlib`
 
+### Results
 
+
+Acknowledgement
+
+Credit to [Shape AI](https://www.linkedin.com/in/shape-ai-71890617b/), I learned this through their [LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:6687248391879057408/).
