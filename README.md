@@ -14,4 +14,4 @@ Below is the result for my test image.
 ![output](output.png)
 
 ### Acknowledgement
-Credit to [Shape AI](https://www.linkedin.com/in/shape-ai-71890617b/), I learned this through their [LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:6687248391879057408/).
+Credit to [Shape AI](https://www.shapeai.tech/), I learned this through their [LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:6687248391879057408/).
